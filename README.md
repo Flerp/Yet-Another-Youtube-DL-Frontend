@@ -13,5 +13,5 @@ All files that this script makes are contained within %APPDATA%\ytdl
 
 
 ### Requirements
-Python
+Python\
 ffmpeg (Same directory as this script, or in PATH)
