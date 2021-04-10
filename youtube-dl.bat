@@ -1,4 +1,4 @@
-@echo off
+::@echo off
 setlocal ENABLEDELAYEDEXPANSION
 set vidx=0
 
@@ -106,7 +106,7 @@ pause >nul
 goto menu
 
 :updateurlsvar
-for /F "tokens=*" %%A in (urls.txt) do (
+for /F "tokens=*" %%A in (%configpath%\urls.txt) do (
     SET /A vidx=!vidx! + 1
     set url!vidx!=%%A
 )
