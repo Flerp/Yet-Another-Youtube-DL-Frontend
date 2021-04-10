@@ -1,5 +1,7 @@
 # Yet Another Youtube DL Frontend
 
+![Look at those fancy graphics](https://i.imgur.com/6HqxI1N.png)
+
 ## What is this?
 
 This is a very simple Youtube-DL frontend that I made, mostly for me.
