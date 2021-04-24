@@ -219,6 +219,7 @@ youtube-dl.exe -i -o "%dlpath%\%%(uploader)s\%%(title)s-%%(upload_date)s.%%(ext)
 goto updatedone 
 
 :updatedone
+cls
 echo ========================================
 echo =               Done!                  =
 echo ========================================
